@@ -1,0 +1,361 @@
+.container{
+    max-width: 900px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.wrapper {
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+    border-top: 1px solid blue;
+    background-color: #edeef0;
+}
+
+.header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid blue;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 0.5px;
+}
+
+.settle {
+    box-sizing: border-box;
+    width: 22%;
+    height: 50px;
+    background-color: #4c6d8e;
+    color: white;
+    border: None;
+    border-radius: 10px;
+    margin-right: 0.5px;
+}
+
+.content {
+    display: flex;
+}
+
+.adds {
+    flex: 1;
+    border-bottom: 1px solid blue;
+}
+
+.go_to {
+    width: 90%;
+    height: 30px;
+    horiz-align: center;
+    background-color: #4c6d8e;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    border: None;
+    border-radius: 10px;
+}
+
+.first_add {
+    margin-top: 5px;
+}
+
+.main {
+    flex: 3;
+    border-left: 1px solid blue;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid blue;
+    height: 55px;
+    width: 100%;
+    align-items: center;
+    font-size: larger;
+}
+
+.net {
+    margin-right: 10px;
+    align-self: flex-end center;
+    color: darkgreen;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.prof {
+    display: flex;
+    border-bottom: 1px solid blue;
+
+}
+
+.prof_inf {
+    flex: 1;
+}
+
+.notes {
+    flex: 2;
+    display: block;
+}
+
+.av {
+    width: 100%;
+    height: 180px;
+    margin-left: 1px;
+    margin-top: 1px;
+    box-sizing: border-box;
+}
+
+.actions {
+    display: flex;
+}
+
+.action {
+    width: 47%;
+    height: 50px;
+    horiz-align: center;
+    background-color: #4c6d8e;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 2px;
+    margin-left: 2%;
+    border: None;
+    border-radius: 10px;
+}
+
+.add_friend {
+    margin-right: 2%;
+}
+
+.followers {
+    width: 100%;
+    text-align: center;
+    height: 20px;
+}
+
+.news {
+    width: 95%;
+    height: 20px;
+    text-align: center;
+    background-color: #4c6d8e;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 2px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: None;
+    border-radius: 10px;
+}
+
+.friends {
+    width: 95%;
+    height: 20px;
+    background-color: white;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 1px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.friends_photo {
+    display: flex;
+}
+
+.friend_photo {
+    width: 17%;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.second {
+    margin-bottom: 20px;
+}
+
+.status {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid blue;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.info {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    background-color: white;
+}
+
+.additional_info {
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.inf_part {
+    margin-bottom: 2px;
+    margin-top: 2px;
+
+}
+
+.photos_caption, .posts_caption {
+    background-color: white;
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.photos_items {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 90%;
+    display: flex;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.my_photo {
+    width: 22%;
+    height: 85px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+
+.posts_caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    margin-right: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid blue;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 15px;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 3px;
+    display: flex;
+}
+
+.post_minit {
+    flex: 1;
+}
+
+.min {
+    width: 80%;
+    height: 35px;
+}
+
+.post_info {
+    flex: 7;
+}
+
+.name_post {
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+@media (max-width: 600px) {
+    .prof {
+        flex-direction: column;
+    }
+    .av {
+        height: 350px;
+    }
+    .friend_photo {
+        width: 60px;
+        height: 60px;
+    }
+}
+@media (max-width: 500px) {
+    .av {
+        height: 300px;
+    }
+    .friend_photo {
+        width: 50px;
+        height: 50px;
+    }
+    .heading {
+        height: 30px;
+        font-size: medium;
+    }
+    .my_photo {
+        height: 65px;
+    }
+}
+
+@media (max-width: 400px) {
+    .av {
+        margin-left: 5px;
+        width: 90%;
+        height: 200px;
+    }
+    .friend_photo {
+        width: 50px;
+        height: 50px;
+    }
+    .heading {
+        height: 30px;
+        font-size: medium;
+    }
+    .my_photo {
+        height: 60px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .go_to {
+        font-size: 10px;
+    }
+    .action, .add_friend {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 47%;
+    }
+    .status, .photos_caption, .photos_items, .posts_caption, .post {
+        margin-left: 5px;
+    }
+}
